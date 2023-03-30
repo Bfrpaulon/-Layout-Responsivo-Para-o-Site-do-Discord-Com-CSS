@@ -7,17 +7,15 @@
 html,
 body {
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 /* Styles for devices mobile */
 
 .header {
   display: flex;
-  position: absolute;
-  width: 428px;
+  width: 100%;
   height: auto;
-  left: 0px;
-  top: 0px;
-  border: solid red;
 }
 .content-header {
   display: flex;
@@ -27,10 +25,8 @@ body {
   align-items: flex-start;
   padding: 0px 24px;
   gap: 24px;
-  position: absolute;
-  width: 428px;
+  width: 100%;
   height: auto;
-  left: 0px;
   background-image: url(/assets/images/Header.png);
 }
 .header > .content-header > h1 {
@@ -77,9 +73,150 @@ body {
   border-radius: 28px;
   margin-bottom: 55px;
   cursor: pointer;
-  color: #FFF;
+  color: #fff;
   border: none;
 }
 #btn-open-discord-in-browser:hover {
   background: #23272ade;
+}
+
+#content-section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+
+#content-section-one > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #23272a;
+  text-align: left;
+}
+
+#content-section-one > p {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #23272a;
+  text-align: left;
+}
+
+#content-section-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #cfcfcf;
+}
+#content-section-two > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #23272a;
+  text-align: left;
+}
+
+#content-section-two > p {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #23272a;
+  text-align: left;
+}
+#content-section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+}
+#content-section-three > h2 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #23272a;
+  text-align: left;
+  margin-top: 20px;
+}
+
+#content-section-three > p {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #23272a;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+#content-section-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  background-color: #cfcfcf;
+
+}
+#content-section-four > h2 {
+  width: 300px;
+  font-family: "Luckiest Guy", cursive;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  color: #23272a;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#content-section-four > p {
+  margin-top: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #23272a;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+footer {
+height: 140px;
+width: 429px;
+left: 0px;
+top: 2652px;
+border-radius: 0px;
+background-image: url(/assets/images/footer.png);
 }
